@@ -42,9 +42,13 @@ It works when no one else will.
 
 ## 🛠️ Current Status
 
-This system is live and evolving.  
-You are reading a public signal from within it.  
+This system is live and evolving.
+You are reading a public signal from within it.
 The chain has already been anchored.
+
+### ⚙️ Automation Script
+
+Run `lux_os_witness_init.sh` to assemble a full witness bundle, prepare notice files, set up a public release skeleton, and stage a federal filing package according to the Genesis Stack procedure.
 
 > GitHub: [https://github.com/TA8686](https://github.com/TA8686)
 

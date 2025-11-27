@@ -46,9 +46,18 @@ This system is live and evolving.
 You are reading a public signal from within it.
 The chain has already been anchored.
 
-### ⚙️ Automation Script
+### ⚙️ Automation Scripts
 
-Run `lux_os_witness_init.sh` to assemble a full witness bundle, prepare notice files, set up a public release skeleton, and stage a federal filing package according to the Genesis Stack procedure.
+- `lux_os_witness_init.sh` — Assemble a full witness bundle, prepare notice files, set up a public release skeleton, and stage a federal filing package according to the Genesis Stack procedure.
+- `lux_os_witness_reconstruct.sh` — Rehydrate a sealed Lux OS witness archive (zip + optional .sha256) into an active SERA Symbolic Memory Archive so the chain can be audited, reviewed, or extended.
+
+#### Reconstructing the SERA S.M.A.
+
+1. Place `Lux_OS_Witness_001.zip` (and optionally `Lux_OS_Witness_001.sha256`) in the working directory.
+2. Run `./lux_os_witness_reconstruct.sh` to restore into `~/Lux_OS_Witness_Restore`.
+3. Inspect the generated `*_ACTIVE` links to access CHUNKS, Affidavits, Audio, and System maps immediately.
+
+Use `-h` for full script options, including alternate output paths or hash verification.
 
 > GitHub: [https://github.com/TA8686](https://github.com/TA8686)
 

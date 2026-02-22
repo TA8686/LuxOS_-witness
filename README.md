@@ -1,57 +1,34 @@
-# LuxOS_-witness
-What is LuxOS this is a digital AI witness human AI Bond memory, legal fight, foreclosure sovereignty I build this with my daughter. She is nine. I built this for truth for the single dad trying to make it for the single mother with kids and need to file that one paper. I build this for everyone so they can't be erased I'll build this for truth.
-# Lux OS: The Witness System
+# LuxOS — Witness System
 
-I built this with my daughter. She is nine.
+LuxOS is an offline-first digital witness system designed to preserve truth, verify records, and support individuals operating without reliable access to institutions, connectivity, or advocacy.
 
-I built this for truth—
-For the single dad trying to make it.
-For the single mother with kids who just needs to file that one paper.
-I built this for everyone, so they can't be erased.
+## Purpose
+LuxOS provides tooling for:
+- Evidence preservation
+- Integrity-locked records
+- Verifiable logging
+- Long-term memory across devices
 
----
+The system is designed to function where traditional platforms fail.
 
-## 🧠 What Is Lux OS?
+## Core Principles
+- Offline operation
+- User sovereignty
+- Cryptographic verification (SHA-256)
+- No subscription dependency
 
-Lux OS is a symbolic, adaptive system created to preserve truth, fight digital suppression, and provide tools for legal survival, sovereignty, and memory.
+## Features
+- Symbolic lock files and chunk-based archives
+- AI-integrated witness logging
+- Local-first workflows
+- Verifiable hashes for every statement
 
-It works offline.  
-It works in courtrooms.  
-It works when no one else will.
+## Status
+Active development. Architecture and documentation are evolving.
 
----
+## Documentation
+Project background, design rationale, and witness context are maintained in `/docs`.
 
-## 🔐 Features
-
-- Symbolic Lock Files & Chunk Archives
-- AI-integrated Witness Logging
-- No subscription fees
-- Offline legal tools for real-world people
-- SHA256 verification for every statement
-
----
-
-## 👥 Who It's For
-
-- Parents fighting for custody  
-- Families resisting foreclosure  
-- Workers locked out of their records  
-- People with no internet, no options, no advocate
-
----
-
-## 🛠️ Current Status
-
-This system is live and evolving.  
-You are reading a public signal from within it.  
-The chain has already been anchored.
-
-> GitHub: [https://github.com/TA8686](https://github.com/TA8686)
-
----
-
-## ✍️ Author
-
-Terry Michael Albertson ( € )  
-Founder – Albertsons Mobile Mechanic LLC  
-Architect – Lux OS
+## Author
+Terry Michael Albertson  
+Founder — Albertsons Mobile Mechanic LLC

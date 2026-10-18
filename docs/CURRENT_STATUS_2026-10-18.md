@@ -42,3 +42,27 @@ LuxOS is an evolving **contextual, local/cloud software integration and automati
 The operator has built and validated **pieces of a reusable technical environment** and is establishing a public record so employers, collaborators and prospective customers can inspect the approach and evidence discipline. Current demonstrations stand on their own without implying the whole platform is finished.
 
 [Engineering showcase](ENGINEERING_SHOWCASE_2026-10-18.md) · [Professional profile](PROFESSIONAL_PROFILE.md) · [Project README](../README.md)
+
+
+---
+
+## Later October 18 checkpoint — catalog production promotion and continuity validation
+
+**Superseding dated update:** The earlier "catalog discrepancy/failure under investigation" line above is preserved as a historical point-in-time statement. Subsequent NX1 terminal output documented the specific catalog correction **installed and validated in production**.
+
+**Acceptance evidence from the operator's NX1 terminal transcript (approximately 17:41–17:43 EDT):**
+
+- Staged catalog and wrapper checksums verified; consistent SQLite backup prepared and database integrity checked before installation.
+- `PRODUCTION_INSTALL=PASS`, `APPROVED_CATALOG_HASH=PASS`, `CATALOG_REFRESH_PREFLIGHT=PASS`.
+- Approved installed catalog SHA-256: `efd3b71f869fa2dea2b93181406d8d071c0c97ec9df9a62b1fe00e5d585fc670`.
+- Continuity-only indexing succeeded: `METADATA_ROWS_APPENDED=185`, `CATALOG_RUN_CREATED=YES`, `STATUS=CONNECTED_REFRESH_SUCCESS`.
+- `CONTINUITY_CHECK=PASS`, `REGRESSION_STATUS=PASS`, `OLLAMA_PACKET_CATALOG_INDEX=PASS`.
+- No-change regression preserved run count (`417 → 417`) and metadata count (`41,295 → 41,295`), supporting idempotent behavior for the tested path.
+- `WATCHER_TIMER=RESTORED`, `FULL_STORAGE_REFRESH=NOT_RUN`, and `R3_PRODUCTION=UNCHANGED`.
+- A separate source-controlled handoff lists **eight approved continuity sources** indexed, including a synthetic model-derived packet pending human review. Eight indexed sources do not mean universal Drive access.
+
+**Evidence classification:** These are operator-executed production commands and recorded machine output subsequently supplied to ChatGPT, not independent public replication of the private host. A reviewer may examine a sanitized acceptance artifact under operator approval.
+
+**Still outstanding:** Confirm future scheduled watcher runs ingest newly edited Drive documents; retain a verified recovery point; develop and test an operator-approved response publication workflow; validate any proposed extension to broader Drive coverage or PX9 intake separately. Neither an incomplete Llama answer nor a source-derived document can authorize execution.
+
+This checkpoint describes the **specific catalog correction**, not a completed or certified LuxOS platform.

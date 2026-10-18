@@ -93,3 +93,31 @@ Each component has its own dated verification scope. A narrow transport test doe
 Start with the [October implementation status](CURRENT_STATUS_2026-10-18.md) and [professional capabilities summary](PROFESSIONAL_PROFILE.md). An appropriately scoped, privacy-preserving technical review can inspect selected test receipts and source artifacts under operator approval. No private Drive link is presented as a public evaluation requirement.
 
 *Evidence base: operator-maintained, dated LuxOS continuity/architecture/capability records and a separately retrieved, synthetic model-output JSON. This is an accurate public summary of those sources, not an independent audit of every local runtime claim.*
+
+
+---
+
+## Later October 18 case study update — controlled catalog production installation
+
+After the earlier laboratory work described above, the operator recorded a bounded release of an opaque-revision catalog correction on NX1.
+
+**Observed production sequence:** preserve and integrity-check a consistent database backup; verify old and replacement source SHA-256 identities; stage the replacement catalog and pinned refresh wrapper; hold the watcher; install the approved candidates; perform a continuity-only index; run continuity and Witness regression; restore the watcher timer.
+
+**Recorded acceptance results:**
+```text
+RELEASE_PREPARATION=PASS
+PRODUCTION_INSTALL=PASS
+APPROVED_CATALOG_HASH=PASS
+METADATA_ROWS_APPENDED=185
+STATUS=CONNECTED_REFRESH_SUCCESS
+CONTINUITY_CHECK=PASS
+REGRESSION_STATUS=PASS
+OLLAMA_PACKET_CATALOG_INDEX=PASS
+WATCHER_TIMER=RESTORED
+FULL_STORAGE_REFRESH=NOT_RUN
+R3_PRODUCTION=UNCHANGED
+```
+
+The no-change path produced no additional catalog run or metadata rows in the bounded regression test. This demonstrates a controlled production repair and continuity-validation checkpoint, **not** a full storage scan, wholesale Drive ingestion, autonomous worker execution, or customer-ready deployment. The source transcript and private receipts remain outside the public repo; independent reproducibility is a separate goal.
+
+The operator's later controlling handoff identifies eight approved sources indexed, including a review-pending synthetic Llama response. The original model response is not approved simply because indexing succeeded.

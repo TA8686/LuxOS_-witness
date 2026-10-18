@@ -66,3 +66,12 @@ The operator has built and validated **pieces of a reusable technical environmen
 **Still outstanding:** Confirm future scheduled watcher runs ingest newly edited Drive documents; retain a verified recovery point; develop and test an operator-approved response publication workflow; validate any proposed extension to broader Drive coverage or PX9 intake separately. Neither an incomplete Llama answer nor a source-derived document can authorize execution.
 
 This checkpoint describes the **specific catalog correction**, not a completed or certified LuxOS platform.
+
+
+## Later October 18 — Ten-source watcher acceptance (19:06 EDT)
+
+A further operator-executed NX1 terminal acceptance expanded the approved Drive registry from **eight to ten named sources** (two new supporting references, not controlling authorities), with valid registry SHA-256 integrity. The scheduled watcher ingested both additions, created their Witness/catalog associations, and completed its regression successfully. The next scheduled run independently reported a healthy database, coherent metadata, `CATALOG_RUN_CREATED=NO` and `STATUS=NO_CHANGE` for its tested unchanged path.
+
+One source initially failed exact-path export because its Google Doc title contained a trailing newline. A metadata-only source-title correction resolved the failure without replacing document contents or removing source history. This is evidence of **bounded automatic ingestion and clean repeatability**, not comprehensive permission for every Drive item, general autonomous answer approval or production R3 activation.
+
+Operator terminal receipts and internal source identifiers remain private. This public summary is not a standalone third-party replication.

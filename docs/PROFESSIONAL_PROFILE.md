@@ -22,6 +22,14 @@ Independent, self-taught technical builder combining hands-on automotive diagnos
 
 These are project-based activities; code and documentation were created with varying levels of AI assistance. They should not be treated as a claim to have personally written every line of an implementation.
 
+## Public engineering work — November 2026
+
+- **[watchdog validated restart code review](https://github.com/gorakhargosh/watchdog/pull/1417#issuecomment-6724199052):** independently reproduced a deleted-entrypoint failure path, prepared and tested an isolated suggested guard, and published a review comment on an existing contributor's PR. No patch merged or PR authorship claimed.
+- **[fsspec in-memory file-handle regression](https://github.com/fsspec/filesystem_spec/issues/2199):** designed two concurrent-handle tests and compared a failing original revision with a passing third-party proposed correction. This was independent testing, not a submitted upstream patch.
+- **[Detailed dated evidence summary](OPEN_SOURCE_ENGINEERING_2026-11-08.md):** test boundaries, reproducibility method, AI-assistance disclosure, and what remains unverified.
+
+These examples demonstrate source comparison, Python regression testing, troubleshooting, and clear GitHub review communication. The evidence is bounded to the specific revisions and tests described.
+
 ## Tools and areas of experience
 
 Linux, shell/terminal workflows, Python-based utilities, Git/GitHub, Google Drive integrations, SSH, Tailscale, SQLite catalog concepts, checksums and provenance, Android/Termux interfaces, Ollama/local models, ChatGPT/Codex, and cross-service information design.

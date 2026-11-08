@@ -91,3 +91,14 @@ LuxOS is not limited to Witness record storage or a Google Drive sync script. It
 **Maturity boundary:** These are bounded demonstrations, not complete platform certification. Production customer deployment, comprehensive automation, security isolation of untrusted workloads and repeatable revenue remain future work.
 
 The original content above remains here unchanged for historical provenance. Future corrections should likewise carry a date and source-backed test scope.
+
+---
+
+## November 8, 2026 — Independent open-source engineering
+
+**[Read the November 8 open-source engineering record](docs/OPEN_SOURCE_ENGINEERING_2026-11-08.md)** for evidence-scoped Python regression work in two public projects:
+
+- [watchdog PR #1417 review comment](https://github.com/gorakhargosh/watchdog/pull/1417#issuecomment-6724199052): a reproducible deleted-entrypoint case, an isolated locally tested guard, and a public review offering the finding to the existing PR author.
+- [fsspec issue #2199](https://github.com/fsspec/filesystem_spec/issues/2199): two baseline-failing concurrent-handle tests that passed against the separately evaluated third-party [PR #2194](https://github.com/fsspec/filesystem_spec/pull/2194).
+
+These are **external laboratory/testing and review results**, not new LuxOS production components, completed upstream merges, or claims of authorship over others' proposals. The upstream checkouts and private project evidence were kept separate from LuxOS production; sensitive local paths and records are not published.
